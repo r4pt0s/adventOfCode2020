@@ -1,5 +1,5 @@
-const { input } = require("../../Helperscripts/loadInput");
-const loadedInput = input("./input1.txt");
+const { input } = require("../../helperscripts/loadInput");
+const loadedInput = input("./input.txt");
 
 //Naive approach O(n^2)
 loadedInput.forEach((num1) => {
