@@ -3,4 +3,5 @@ const fs = require("fs");
 
 module.exports = {
   input: (inputfile) => fs.readFileSync(inputfile, "utf8").split("\r\n"),
+  rawInput: (inputfile) => fs.readFileSync(inputfile, "utf8"),
 };
